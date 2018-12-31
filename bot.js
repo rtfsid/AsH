@@ -1075,7 +1075,7 @@ client.on("message", message => {
 
 
 client.on('message', function(msg) {
-  if(msg.content.startsWith ('%server')) {
+  if(msg.content.startsWith ('server')) {
     if(!msg.channel.guild) return msg.reply('**:x: اسف لكن هذا الامر للاداره فقط**');         
     let embed = new Discord.RichEmbed()
     .setColor('RANDOM')
